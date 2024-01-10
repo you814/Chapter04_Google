@@ -1,0 +1,100 @@
+body{
+    display: contents;
+    font-size: 15px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+}
+
+.naver1{
+    float: left;
+    margin: 15px;
+    margin-right: 200px;
+
+}
+.naver2{
+    float: right;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #202124;
+    margin-right: 15px;
+}
+
+.main{
+    margin-top: 260px;
+    text-align: center;
+}
+
+.input-box{
+    width: 460px;
+    height: 46px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    color: #202124;
+    padding-left: 50px;
+    padding-right: 105px;
+}
+
+.search-icon{
+    position: relative;
+    left: 46px;
+    color: #dfe1e5;
+}
+.keyboard-icon{
+    position: relative;
+    right: 100px;
+    color: #dfe1e5;
+}
+.mic-icon{
+    position: relative;
+    right: 90px;
+    color: #dfe1e5;
+}
+.camera-icon{
+    position: relative;
+    right: 80px;
+    color: #dfe1e5;
+}
+
+.text-area{
+    margin-top: 20px;
+}
+
+.btarea{
+    padding-top: 20px;
+}
+
+.searchbt{
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.searchbt:hover{
+    box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 2px solid #dadce0;
+    color: #202124;
+}
+
+.last{
+    position: absolute;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.national{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
