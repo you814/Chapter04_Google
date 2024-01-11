@@ -1,13 +1,25 @@
-body{
+/* body{
     display: contents;
     font-size: 15px;
     font-family: Apple SD Gothic Neo,arial,sans-serif;
+    background-color: #202124;
+} */
+
+body{
+    background-color: #202124;
+    color: #bdc1c6;
+    margin: 0;
+}
+
+header {
+    height: 1px;
 }
 
 .naver1{
     float: left;
     margin: 15px;
     margin-right: 200px;
+    color: #bdc1c6;
 
 }
 .naver2{
@@ -17,7 +29,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #202124;
+    color: #bdc1c6;
     margin-right: 15px;
 }
 
@@ -59,6 +71,7 @@ a{
 
 .text-area{
     margin-top: 20px;
+    background-color: #202124;
 }
 
 .btarea{
@@ -66,18 +79,19 @@ a{
 }
 
 .searchbt{
-    background-color: #f8f9fa;
-    border: 1px solid #dadce0;
+    background-color: #303134;
+    border: 1px solid #303134;
     border-radius: 4px;
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
     text-align: center;
+    color: #e8eaed;
 }
 
 .searchbt:hover{
     box-shadow: 0 2px 2px rgba(0,0,0,.1);
-    background-color: #f8f9fa;
+    background-color: #202124;
     border: 2px solid #dadce0;
     color: #202124;
 }
@@ -85,7 +99,7 @@ a{
 .last{
     position: absolute;
     bottom: 0px;
-    background-color: #f2f2f2;
+    background-color: #151515;
     width: 100%;
 }
 
@@ -93,7 +107,7 @@ a{
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
-    color: #202124;
+    color: #bdc1c6;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
